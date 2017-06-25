@@ -1,0 +1,21 @@
+{
+  "name": "typescriptdemo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SETTER2000/typescriptdemo.git"
+  },
+  "author": "setter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SETTER2000/typescriptdemo/issues"
+  },
+  "homepage": "https://github.com/SETTER2000/typescriptdemo#readme"
+}
