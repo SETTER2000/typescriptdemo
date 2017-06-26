@@ -19,7 +19,29 @@ class Greeter {
     }
 
 }
-
+interface IUser {
+    name: string;
+}
+class User {
+    name: string;
+    constructor(userName: string) {
+        this.name = userName;
+    }
+}
+class Employee extends User {
+    company: string;
+    constructor(employeeCompany: string, userName: string) {
+        super(userName);
+        this.company = employeeCompany;
+    }
+}
+let alice: Employee = new Employee("Microsoft", "Alice");
+if (alice instanceof User) {
+    console.log("Alice is a User");
+}
+else {
+    console.log("Alice is not a User");
+}
 window.onload = () => {
     var el = document.getElementById('content');
     var greeter = new Greeter(el);
